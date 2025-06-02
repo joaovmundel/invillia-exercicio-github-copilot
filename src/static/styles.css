@@ -142,3 +142,29 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 10px;
+}
+
+.participant-list {
+  list-style: disc inside;
+  margin: 5px 0 0 10px;
+  padding-left: 0;
+}
+
+.participant {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 2px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.participant::before {
+  content: "👤";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 15px;
+}
